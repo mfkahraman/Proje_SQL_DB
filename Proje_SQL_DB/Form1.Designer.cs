@@ -49,7 +49,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnKategori = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -88,7 +88,7 @@
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.BtnKategori);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -296,16 +296,17 @@
             this.button4.Text = "Personeller";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // BtnKategori
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(126, 247);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(341, 70);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Kategoriler";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtnKategori.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnKategori.ForeColor = System.Drawing.Color.White;
+            this.BtnKategori.Location = new System.Drawing.Point(126, 247);
+            this.BtnKategori.Name = "BtnKategori";
+            this.BtnKategori.Size = new System.Drawing.Size(341, 70);
+            this.BtnKategori.TabIndex = 0;
+            this.BtnKategori.Text = "Kategoriler";
+            this.BtnKategori.UseVisualStyleBackColor = true;
+            this.BtnKategori.Click += new System.EventHandler(this.BtnKategori_Click);
             // 
             // button2
             // 
@@ -382,7 +383,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnKategori;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;

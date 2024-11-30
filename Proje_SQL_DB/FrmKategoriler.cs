@@ -7,20 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient
 
 namespace Proje_SQL_DB
 {
-    public partial class Form1 : Form
+    public partial class FrmKategoriler : Form
     {
-        public Form1()
+        public FrmKategoriler()
         {
             InitializeComponent();
         }
 
-        private void BtnKategori_Click(object sender, EventArgs e)
+        private void BtnListele_Click(object sender, EventArgs e)
         {
-            FrmKategoriler frm = new FrmKategoriler();
-            frm.Show();
+
         }
     }
 }
